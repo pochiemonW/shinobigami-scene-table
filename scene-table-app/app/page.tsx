@@ -84,7 +84,7 @@ export default function Home() {
   return (
     <div className="font-sans min-h-screen bg-gray-50 dark:bg-gray-900">
       <div className="container mx-auto p-4">
-        <h1 className="text-2xl font-bold mb-6 text-center">シーン表自動生成アプリ</h1>
+        <h1 className="text-2xl font-bold mb-6 text-center">シノビガミ用シーン表自動生成アプリ</h1>
         
         <div className="flex flex-col lg:flex-row gap-6 lg:items-start">
           {/* 左側: 入力フォーム */}
@@ -197,6 +197,14 @@ export default function Home() {
             </div>
           )}
         </div>
+        
+        {/* クレジット表示 */}
+        <footer className="mt-12 pt-8 border-t border-gray-200 dark:border-gray-700">
+          <div className="text-center text-sm text-gray-600 dark:text-gray-400 space-y-2">
+            <p>本作は、「河嶋陶一朗／冒険企画局」及び「株式会社新紀元社」が権利を有する『忍術バトルRPGシノビガミ』の二次創作物です。</p>
+            <p>（C）河嶋陶一朗／冒険企画局／新紀元社</p>
+          </div>
+        </footer>
       </div>
     </div>
   );
